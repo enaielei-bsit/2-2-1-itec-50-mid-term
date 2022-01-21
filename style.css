@@ -1,0 +1,142 @@
+﻿*{
+	box-sizing:border-box;
+}
+
+body{
+	margin:0;
+}
+
+hr{
+	width:0;
+	margin:0;
+	padding:0;
+	visibility:hidden;
+}
+
+header{
+	text-align:center;
+	width:100%;
+	background-color:darkgreen;
+	padding:25px;
+	margin:0;
+}
+
+header a{
+	text-decoration:none;
+	font-family:Verdana;
+	color:orange;
+	text-transform:uppercase;
+}
+
+header a:nth-child(1){
+	font-size:45px;
+	font-weight:bolder;
+}
+
+header a:nth-child(3){
+	font-size:35px;
+}
+
+nav{
+	width:100%;
+	margin:0; padding:0;
+	padding:0px;
+}
+
+nav ul {
+	list-style:none;
+	text-align:center;
+	font-size:0;
+	background-color:yellow;
+	margin:0; padding:0;
+}
+
+nav ul a li{
+	display:inline-block;
+	width:33.33%;
+	padding:15px 0;
+	
+}
+
+nav ul a{
+	text-transform:uppercase;
+	font-family:Verdana;
+	font-size:20px;
+	text-decoration:none;
+	padding:0; margin:0;
+	color:blue;
+	
+}
+
+nav ul a:active li{
+	background-color:blue;
+	color:yellow;
+}
+
+#active li{
+	background-color:blue;
+	color:yellow;
+}
+
+#cvsu{
+	text-align:center; padding:20px;
+
+}
+
+#cvsu h1{
+	font-size:35px;
+	font-family:Verdana;
+	text-transform:uppercase;
+	margin-left:250px;
+	margin-right:250px;
+}
+
+#cvsu p{
+	font-size:20px;
+	font-family:Arial;
+	margin:0 150px;
+}
+
+#courses{
+	text-align:center; padding:20px;
+
+}
+
+#courses h1{
+	font-size:35px;
+	font-family:Verdana;
+	text-transform:uppercase;
+	margin-left:250px;
+	margin-right:250px;
+}
+
+#courses p{
+	font-size:20px;
+	font-family:Arial;
+	margin:0 150px;
+}
+
+#facilities{
+	text-align:center;
+	padding:20px;
+}
+
+#facilities img{
+	width:30%;
+	height:30%;
+	margin:20px;
+}
+
+#facilities h1{
+	font-size:35px;
+	font-family:Verdana;
+	text-transform:uppercase;
+	margin-left:250px;
+	margin-right:250px;
+}
+
+#facilities p{
+	font-size:20px;
+	font-family:Arial;
+	margin:0 150px;
+}
